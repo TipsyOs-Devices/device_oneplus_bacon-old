@@ -61,5 +61,10 @@ BOARD_NFC_CHIPSET := pn547
 AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
 AUDIO_FEATURE_ENABLED_LOW_LATENCY_CAPTURE := true
 
+# Default.prop overrides to get adb working at boot   
+ADDITIONAL_DEFAULT_PROPERTIES += \
+		ro.secure=0 \
+		ro.adb.secure=0 \
+
 # inherit from the proprietary version
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
