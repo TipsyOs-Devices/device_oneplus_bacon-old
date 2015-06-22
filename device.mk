@@ -57,6 +57,8 @@ PRODUCT_COPY_FILES += \
 # System properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9
+    dalvik.vm.image-dex2oat-filter=everything \
+    dalvik.vm.dex2oat-filter=everything
 
 # Fuuuuu
 PRODUCT_PACKAGES += camera.bacon
