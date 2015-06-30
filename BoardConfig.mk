@@ -27,9 +27,6 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9
 
-#Use prebuilt chromium
-export USE_PREBUILT_CHROMIUM=1
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
 
