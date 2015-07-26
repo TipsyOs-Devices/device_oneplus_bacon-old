@@ -30,6 +30,9 @@ TARGET_GCC_VERSION_EXP := 4.9-sm
 # Tipsy Optimizations
 #PULSE := true
 
+# Healthd
+BOARD_CHARGER_SHOW_PERCENTAGE := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/oneplus/bacon/bluetooth
 
