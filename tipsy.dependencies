@@ -19,26 +19,20 @@
 },
 {
 "remote":  "github",
-"repository": "CyanogenMod/android_device_qcom_common",
-"target_path": "device/qcom/common",
-"branch": "cm-12.1"
-},
-{
-"remote":  "github",
 "repository": "Cyanogenmod/android_frameworks_opt_connectivity",
 "target_path": "frameworks/opt/connectivity",
 "branch": "cm-11.0"
 },
 {
 "remote":  "github",
-"repository": "TheMuppets/proprietary_vendor_oppo",
+"repository": "TheLoonyBin/proprietary_vendor_oppo",
 "target_path": "vendor/oppo",
-"branch": "cm-12.1"
+"branch": "lp5.1"
 },
 {
 "remote":  "github",
-"repository": "TheMuppets/proprietary_vendor_oneplus",
+"repository": "TheLoonyBin/proprietary_vendor_oneplus",
 "target_path": "vendor/oneplus",
-"branch": "cm-12.1"
+"branch": "lp5.1"
 }
 ]
