@@ -15,7 +15,7 @@
 "remote":  "github",
 "repository": "Validus-Kernel/android_kernel_oneplus_msm8974",
 "target_path": "kernel/oneplus/msm8974",
-"branch": "lp5.1-test"
+"branch": "tipsy"
 },
 {
 "remote":  "github",
